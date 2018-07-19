@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+li.ant-menu-item.ant-menu-item-selected a {
+  color: white;
+}
+#components-layout-demo-top-side-2 .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255,255,255,.2);  
+  margin: 16px 28px 16px 0;
+  float: left;
+}
+.hidden{display: none!important}
+
+.m-t{margin-top:10px!important; }

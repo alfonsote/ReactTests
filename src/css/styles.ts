@@ -1,0 +1,16 @@
+import "antd/lib/button/style/css";
+import "antd/lib/card/style/css";
+import "antd/lib/form/style/css";
+import "antd/lib/grid/style/css";
+import "antd/lib/icon/style/css";
+import "antd/lib/input-number/style/css";
+import "antd/lib/layout/style/css";
+import "antd/lib/modal/style/css";
+import "antd/lib/popover/style/css";
+import "antd/lib/progress/style/css";
+import "antd/lib/radio/style/css";
+import "antd/lib/row/style/css";
+import "antd/lib/steps/style/css";
+import "antd/lib/switch/style/css";
+import "antd/lib/table/style/css";
+import "antd/lib/tag/style/css";
