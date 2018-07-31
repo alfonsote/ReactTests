@@ -1,6 +1,5 @@
 
-import React from "react";
-function Remoto (){
+import React from "react";function Remoto (){
   return  <div>
     klk papa</div>
 }

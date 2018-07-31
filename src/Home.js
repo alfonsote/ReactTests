@@ -2,7 +2,7 @@ import React from "react";
 import { Steps, Icon, Row, Col, Form, Input, Card, Tooltip,  Avatar } from 'antd';
 
 export const Step = Steps.Step;
-
+console.log("saliendo");
 const elJson = [
 	{
 		"Name": "Ulysses",

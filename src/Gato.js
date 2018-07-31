@@ -1,21 +1,15 @@
-
 import React from "react";
 import { Layout, Menu, Breadcrumb, Input } from 'antd';
-var signo = prompt('que signo tu eres');
-alert ('verificando tu fortuna manito');
-switch (signo){
-    case 'aries': 
-    alert('eres el mas duro de todos los astros');
-    break;
-    case 'tauro': 
-    alert('Tienes los cachos siempre manito');
-    break;
-    case 'virgo':
-    alert('chakra es el caballero del zodiaco mas OP');
-    break
-};
 
 
+ class Welcome extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}</h1>;
+  }
+}
+function Hola(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
 
 
 const { Header, Content, Footer } = Layout;
@@ -43,6 +37,9 @@ const { Header, Content, Footer } = Layout;
       <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
       Las funciones
       <Input id="respuesta" placeholder="Basic usage" />
+      {new Date().toLocaleTimeString()}
+      <Welcome name="alfonso"/>
+      <Hola name="alfonsote"/>
       </div>
     </Content>
     <Footer style={{ textAlign: 'center' }}>
